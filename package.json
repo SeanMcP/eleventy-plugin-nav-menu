@@ -1,13 +1,15 @@
 {
   "name": "eleventy-plugin-nav-menu",
   "version": "0.0.0",
-  "description": "",
+  "description": "A responsive nav menu shortcode for Eleventy",
   "main": "lib.js",
   "files": [
     "lib.js"
   ],
   "scripts": {
     "build": "node src/build.js",
+    "preversion": "npm run build",
+    "postversion": "git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
