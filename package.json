@@ -1,0 +1,24 @@
+{
+  "name": "eleventy-plugin-nav-menu",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanMcP/eleventy-plugin-nav-menu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanMcP/eleventy-plugin-nav-menu/issues"
+  },
+  "homepage": "https://github.com/SeanMcP/eleventy-plugin-nav-menu#readme",
+  "devDependencies": {
+    "cssmin": "^0.4.3",
+    "terser": "^5.5.1"
+  }
+}

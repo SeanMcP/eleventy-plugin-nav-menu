@@ -1,0 +1,15 @@
+[data-nav-menu][aria-hiden="true"][hidden] {
+  display: none !important;
+}
+
+@media screen and (max-width: 500px) {
+  [data-nav-menu="desktop"] {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 501px) {
+  [data-nav-menu="open"] {
+    display: none;
+  }
+}
