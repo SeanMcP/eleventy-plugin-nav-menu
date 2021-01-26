@@ -1,5 +1,5 @@
-const CSS_STRING = "%CSS%";
-const JS_STRING = "%JS%";
+const CSS_STRING = `%CSS%`;
+const JS_STRING = `%JS%`;
 
 module.exports = function navMenuPlugin(config) {
   config.addShortcode("navMenuStyles", () => {

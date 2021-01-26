@@ -1,4 +1,4 @@
-[data-nav-menu][aria-hiden="true"][hidden] {
+[data-nav-menu][aria-hidden="true"][hidden] {
   display: none !important;
 }
 
